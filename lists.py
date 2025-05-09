@@ -1,3 +1,4 @@
+# Replace the "ANSWER HERE" with your answer
 def remove_elements(list_to_remove_elements):
     remove = list_to_remove_elements[:]
 
@@ -13,8 +14,8 @@ def remove_elements(list_to_remove_elements):
 def add_elements(list_to_add_elements):
     add = list_to_add_elements[:]
 
-    add.insert(0, 'Pink')
-    add.append('Yellow')
+    add.insert(0, 'Pink')                 
+    add.append('Yellow')       
 
     return add
 
@@ -25,8 +26,8 @@ def is_empty(list_to_check):
         return False
 
 def check_lists(list_to_compare1, list_to_compare2):
-    lista1 = list_to_compare1[:]
-    lista2 = list_to_compare2[:]
+    lista1 = list_to_compare1[:] 
+    lista2 = list_to_compare2[:] 
 
     if len(lista1) >= 3 and len(lista2) >= 3:
         if lista1[2] == lista2[2]:
@@ -37,9 +38,11 @@ def check_lists(list_to_compare1, list_to_compare2):
         return False
 
 def list_of_lists(listas):
-    nueva = listas[:]
+    nueva = listas[:]  
     nueva[0] = nueva[0][:2]
     nueva[1] = nueva[1][1:4]
     nueva[2] = nueva[2][-2:]
 
     return nueva
+
+    
