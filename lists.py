@@ -12,7 +12,6 @@ def remove_elements(list_to_remove_elements):
 
 def add_elements(list_to_add_elements):
     add = list_to_add_elements[:]
-
     add.insert(0, 'Pink')
     add.append('Yellow')
 
