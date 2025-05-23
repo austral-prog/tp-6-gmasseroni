@@ -1,3 +1,4 @@
+# Replace the "ANSWER HERE" with your answer
 def remove_elements(list_to_remove_elements):
     remove = list_to_remove_elements[:]
 
