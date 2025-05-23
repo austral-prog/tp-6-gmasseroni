@@ -44,5 +44,3 @@ def list_of_lists(listas):
     nueva[2] = nueva[2][-2:]
 
     return nueva
-
-    
